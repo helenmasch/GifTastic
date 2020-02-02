@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GifTastic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="./assets/style.css" media="screen">
 </head>
@@ -12,7 +13,7 @@
 
 <body>
     <!-- ? Does the food type name need to reflect how it's searched in giphy? -->
-    <button data-food="hamburger">hamburger</button>
+    <!-- <button data-food="hamburger">hamburger</button>
     <button data-food="french fries">french fries</button>
     <button data-food="cheesesteak">cheesesteak</button>
     <button data-food="fried chicken">fried chicken</button>
@@ -24,8 +25,29 @@
     <button data-food="pasta">pasta</button>
     <button data-food="mozzarella sticks">mozzarella sticks</button>
 
-    <div id="gifs-appear-here">
+<button></button>
+-->
+
+<div class="container">
+    <div class="mb-5" id="buttonsDiv"></div>
+
+
+    <div class="row">
+        <div class="col-sm-8">
+            <div id="gifs-appear-here">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            Add Food
+            <input type="text" id="food">
+            <button id="submitBtn">submit</button>
+        </div>
     </div>
+
+   
+</div>
+
+   
     
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
