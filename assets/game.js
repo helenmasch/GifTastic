@@ -7,7 +7,7 @@ $(document).ready(function () {
     $("button").on("click"), function() {
     
             // setting variable for "this" keyword refers to the button clicked
-        var food = $(this).attr("food-type");
+        var food = $(this).attr("data-food");
     
             // Constructs a URL to search giphy for the name of the food in text on each button
             // created my own API key in the giphy app
